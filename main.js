@@ -56,7 +56,7 @@ btnGenerate.addEventListener("click", function(e){
    if(input.value == ''){
       const backup = document.querySelector('.error').innerText;
       document.querySelector('.error')
-      .innerHTML = "Oops! Invalid input.Please input a number between (1-10)";
+      .innerHTML = "Oops! Invalid input.Please input a number between (1-15)";
       document.querySelector('.error')
       .style.display = 'block';
       setTimeout(function() {
@@ -92,7 +92,7 @@ btnGenerate.addEventListener("click", function(e){
       arrayOfNumber.push(i+1);
    }
    arrayOfNumber = shuffleArray(arrayOfNumber);
-   const arrayOfChar = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+   const arrayOfChar = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P'];
    // alert(arrayOfNumber);
    
    for(i=0;i<arrayOfNumber.length;i++){
@@ -128,7 +128,7 @@ input.addEventListener("keypress", function(e) {
   var key = Number(e.key);
   if (Number.isInteger(key)) {
     value = Number("" + value + key);
-    if (value > 10) {
+    if (value > 15) {
       return false;
     }
     input.value = value;
