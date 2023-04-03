@@ -5,7 +5,7 @@
 https://fh-rabbi.github.io/play-cricket
 
 ### Android
-[Download Now](https://github.com/fh-rabbi/play-cricket/releases/download/v1.0/Play.Cricket.signed.apk)
+[Download Now](https://github.com/fh-rabbi/play-cricket/releases/download/v1.1/Play.Cricket.signed.apk)
 
 ### Screenshots
 <div align="center">
